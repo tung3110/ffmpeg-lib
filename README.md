@@ -1,6 +1,8 @@
 
 build cho orangepi
-
+sudo cp /etc/apt/sources.list /etc/apt/sources.list~
+sudo sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list
+sudo apt update
 https://forum.armbian.com/topic/837-ffmpeg-on-orange-pi-pc/
 
 wget https://schedule.truyenthanhso.vn/VsClient/ffmpeg_build.zip
