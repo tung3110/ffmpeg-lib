@@ -14,7 +14,9 @@ cp ffmpeg-lib/libffmpeg/libcrystalhd.so.3  /usr/lib/x86_64-linux-gnu/libcrystalh
 cp ffmpeg-lib/libffmpeg/libx264.so.155  /usr/lib/x86_64-linux-gnu/libx264.so.155
 
 cp ffmpeg-lib/libffmpeg/libx264.so  /usr/lib/x86_64-linux-gnu/libx264.so.155
+
 // test thu
 wget https://schedule.truyenthanhso.vn/VsClient/test.mp4
+
 ./ffmpeg -re -i ~/test.mp4 -vcodec libx264 -acodec opus -strict -2 -ar 48000 -f webrtc "https://dev-rtc.radiotech.vn/rtc/v1/whip/?app=live&stream=livestream12345"
 sudo apt-get install libxcb-shm0
