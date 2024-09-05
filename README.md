@@ -1,3 +1,8 @@
+
+build cho orangepi
+
+https://forum.armbian.com/topic/837-ffmpeg-on-orange-pi-pc/
+
 wget https://schedule.truyenthanhso.vn/VsClient/ffmpeg_build.zip
 
 
