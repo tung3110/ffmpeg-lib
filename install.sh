@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install -y libsdl2-dev libva-dev ffmpeg libavformat-dev libavcodec-dev libswscale-dev zip wget
+apt -y update && apt -y upgrade && apt -y install  libsdl2-dev libva-dev ffmpeg libavformat-dev libavcodec-dev libswscale-dev zip wget
 
 wget https://schedule.truyenthanhso.vn/VsClient/ffmpeg_build_static.zip
 
